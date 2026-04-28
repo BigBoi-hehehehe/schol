@@ -7,4 +7,4 @@ name = st.text_input('Name do: ')
 age = st.number_input('Age do:')
 
 if st.button('Submit'):
-    st.write('Hello, {name}. Just leave :(')
+    st.write(f'Hello, {name}. Just leave :(')
